@@ -1,0 +1,422 @@
+<!doctype html>
+<!--[if IE 9]><html lang="en" class="ie ie9"><![endif]-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sudoku Zen for Android - A game by Brilliant Labs</title>
+    <meta name="description" content="Sudoku Zen is a game for Android developed by Brilliant Labs Limited" />
+	<meta name="keywords" content="responsive html template, landing page, mobile app presentation, bootstrap 3.0, css, jquery" />
+	<meta name="author" content="Brilliant Labs Ltd" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <meta property="og:locale" content="en_US" />  
+    <meta property="og:locale:alternate" content="it_IT" />
+    <meta property="og:locale:alternate" content="pt_BR" />
+    <meta property="og:title" content="Sudoku Zen for Android">    	
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="Sudoku Zen">
+	<meta property="og:description" content="Keep Zen and play Sudoku. Download Now FREE!">
+	<meta property="og:image" content="http://www.brilliant-labs.com/sudokuzen/img/og_image.jpg">
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!--Google Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Neucha' rel='stylesheet' type='text/css'>
+    <!--Bootstrap 3.0.3-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <!--Icons Fonts-->
+    <link href="css/font-awesome.min.css" rel="stylesheet" media="screen">
+    <!--Animations-->
+    <link href="css/animate.css" rel="stylesheet" media="screen">
+    <!-- Custom styles -->
+    <link href="css/style-android.css" rel="stylesheet" media="screen">
+    <!--Modernizr-->
+		<script src="js/modernizr.custom.js"></script>
+    <!--[if lt IE 9]>
+      <script src="js/respond.min.js"></script>
+      <link href="css/ie8/style-android-ie8.css" rel="stylesheet" media="screen">
+    <![endif]-->
+
+
+  <!--Google Analytics-->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+		ga('create', 'UA-59458276-1', 'auto');
+		ga('send', 'pageview');
+	</script>  
+  </head>
+  
+  <!--Body-->
+  <body class="parallax"><!--By adding Parallax Class to body we enable Background Parallax effect-->
+  
+  	<!-- Preloader -->
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div>
+
+    <!--Side Menu-->
+    <!--By adding/removing class "animated" we enable/disable page load animations. To change the type of animation go to scripts-VersionName.js to section "Preloading Animation"-->
+<!--
+    <aside class="side-menu">
+    	<div class="menu-toggle animated">
+      	<span class="bar-long"></span>
+      	<span class="bar"></span>
+      	<span class="bar"></span>
+      </div>
+      <nav>
+      	<ul>
+        	<li class="active"><a onclick="$('body').animatescroll({scrollSpeed:1000,easing:'easeInOutCubic'});" href="#home">Home</a></li>
+        	<li><a onclick="$('#features').animatescroll({scrollSpeed:1000,easing:'easeInOutCubic'});" href="#features">Features</a></li>
+        	<li><a onclick="$('#pricing').animatescroll({scrollSpeed:1000,easing:'easeInOutCubic'});" href="#pricing">Prices</a></li>
+        	<li><a onclick="$('#team').animatescroll({scrollSpeed:1000,easing:'easeInOutCubic'});" href="#team">Our Team</a></li>
+        	<li><a onclick="$('#gallery').animatescroll({scrollSpeed:1000,easing:'easeInOutCubic'});" href="#gallery">Gallery</a></li>
+        </ul>
+      </nav>
+    </aside>
+-->
+    
+    <!--Home-->
+    <section class="home-bg parallax" data-stellar-background-ratio="2">
+    
+      <!--App Showcase-->
+      <section class="app-showcase container" id="home">
+	  	
+	  	<div class="col-lg-6 col-md-7 info-block animated"><!--By adding/removing class "animated" we enable/disable page load animations-->
+          <div class="logo"><img src="img/img-android/logo.png" width="278" height="86" alt="Appica"/></div>
+          <h1>KEEP ZEN & PLAY SUDOKU</h1>
+          <div class="buttons group">
+		  	<a class="store-btn" href="http://ad.apps.fm/aJk1jTXk1i9Bj3SIdfS-GPcVt_HSjIlhDf-F5ddH4Iahlj7lVjPkW4S6G1-3ojM-zLcNahgs670HXyVwLN4iPaLa7Vd9TG8LeJruAZYJ3X3upJCxdN1jl_vLsu6A3fpt">
+			  <img alt="Android app on Google Play"src="https://developer.android.com/images/brand/en_app_rgb_wo_60.png" />
+			</a>
+<!--
+			<a class="store-btn last" href="http://ad.apps.fm/BnZehB2d-C9qBRwaQeWU2PcVt_HSjIlhDf-F5ddH4Iahlj7lVjPkW4S6G1-3ojM-np9Xpkk7IyhrlMKRiI0TuokFuSqOS5z5gdg282x-sA0Ji9zTpGXSzc7o8E7Fg5jv">
+				<img src="img/img-android/Samsung_GALAXY_Apps_Badge_A_bk.png" alt="Available on Samsung GALAXY Apps" width="158" height="60">
+			</a>
+-->
+            <!-- <a class="google-play-btn" href="http://ad.apps.fm/aJk1jTXk1i9Bj3SIdfS-GPcVt_HSjIlhDf-F5ddH4Iahlj7lVjPkW4S6G1-3ojM-zLcNahgs670HXyVwLN4iPaLa7Vd9TG8LeJruAZYJ3X3upJCxdN1jl_vLsu6A3fpt"></a> -->
+            <!-- <a class="samsung-apps-btn" href="http://ad.apps.fm/BnZehB2d-C9qBRwaQeWU2PcVt_HSjIlhDf-F5ddH4Iahlj7lVjPkW4S6G1-3ojM-np9Xpkk7IyhrlMKRiI0TuokFuSqOS5z5gdg282x-sA0Ji9zTpGXSzc7o8E7Fg5jv"></a> -->
+          </div>          
+          <p>A delightful new gaming experience that propels players into a happy and fun environment, with blue skies and moving tiles, much akin a Japanese themed scenario. 
+	         </br>Available free for Android.</p>
+
+        </div>	
+        <div class="col-lg-5 col-lg-offset-1 col-md-5">
+          
+          <!--Presentation Slideshow-->
+          <div id="phone" class="animated"><!--By adding/removing class "animated" we enable/disable page load animations-->
+            <div class="slideshow">
+              <ul>
+                <li><img src="img/img-android/slideshow/screen1.jpg" width="253" height="449"  alt="Screen 1"/></li>
+                <li><img src="img/img-android/slideshow/screen2.jpg" width="253" height="449"  alt="Screen 2"/></li>
+                <li><img src="img/img-android/slideshow/screen3.jpg" width="253" height="449"  alt="Screen 3"/></li>
+                <li><img src="img/img-android/slideshow/screen4.jpg" width="253" height="449"  alt="Screen 4"/></li>                
+              </ul>
+            </div>
+            <div class="controls group">
+              <span class="prev"></span>
+              <span>Preview</span>
+              <span class="next"></span>
+            </div>
+          </div>
+        </div>
+
+      </section>
+      
+      <!--Social Networks-->
+      <section class="social">
+        <div class="container animated"><!--By adding/removing class "animated" we enable/disable page load animations-->
+          <div class="col-lg-6 col-md-7">
+            <h1>Follow Us</h1>
+            <div class="social-icons group">
+              <a href="https://facebook.com/brilliantlabs" class="fa fa-facebook"></a>
+              <!-- <a href="#" class="fa fa-pinterest"></a> -->
+              <a href="https://plus.google.com/b/113262472630328854842/113262472630328854842/posts?hl=en-GB&service=PLUS" class="fa fa-google-plus"></a>
+              <!-- <a href="#" class="fa fa-linkedin"></a> -->
+              <a href="https://twitter.com/brilliantlabs" class="fa fa-twitter"></a>
+              <!-- <a href="#" class="fa fa-instagram last"></a> -->
+            </div>
+          </div> 
+        </div>
+      </section>
+    </section>
+
+    <!--Features-->
+    <!--By adding/removing class "animation" we enable/disable scroll animation of current element-->    
+<!--
+    <section class="content-block white" id="features">
+      <div class="container">
+      	<div class="row animation" data-animation="fadeInDown">        	<h1>Features</h1>
+          <h2>Lollipop powder danish sugar plum<br/>caramels liquorice sweet cookie.</h2>
+        </div>
+        <div class="row">
+        	<div class="col-lg-3 col-md-6 col-sm-6">
+          	<div class="feature animation" data-animation="fadeInLeft">
+              <img src="img/img-android/icons/support.png" width="203" height="203" alt="Fast Support"/>
+              <h2>Fast support</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+            </div>
+          </div>
+        	<div class="col-lg-3 col-md-6 col-sm-6">
+          	<div class="feature animation" data-animation="fadeInLeft">
+              <img src="img/img-android/icons/updates.png" width="203" height="203" alt="Regular Updates"/>
+              <h2>Regular Updates</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+            </div>
+          </div>
+        	<div class="col-lg-3 col-md-6 col-sm-6">
+          	<div class="feature animation" data-animation="fadeInRight">
+              <img src="img/img-android/icons/code.png" width="203" height="203" alt="Clean Code"/>
+              <h2>Clean Code</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+            </div>
+          </div>
+        	<div class="col-lg-3 col-md-6 col-sm-6">
+          	<div class="feature animation" data-animation="fadeInRight">
+              <img src="img/img-android/icons/customizable.png" width="203" height="203" alt="Customizable"/>
+              <h2>Customizable</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+-->
+    
+    <!--Pricing-->
+    <!--By adding/removing class "animation" we enable/disable scroll animation of current element-->
+<!--
+    <section class="content-block pricing-bg" id="pricing" data-stellar-background-ratio="2">
+    	<div class="container">
+      	<div class="row animation" data-animation="flipInX">
+        	<h1 class="white">Choose a pricing plan</h1>
+          <h2 class="white">Lollipop powder danish sugar plum<br/>caramels liquorice sweet cookie.</h2>
+        </div>
+        <div class="row">
+        	<div class="col-lg-3 col-md-6 col-sm-6 animation" data-animation="bounceInLeft">
+          	<div class="pricing-plan">
+            	<h3>Basic</h3>
+              <ul>
+              	<li><span>$10</span> / month</li>
+              	<li><span>1GB</span> Storage</li>
+              	<li><span>2GB</span> RAM</li>
+              	<li><span>100GB</span> Bandwidth</li>
+              	<li><span>2</span> Email Address</li>
+              	<li>Email Address</li>
+              </ul>
+              <div class="btn-middle"><a class="signup-btn" href="#">Sign Up</a></div>
+            </div>
+          </div>
+        	<div class="col-lg-3 col-md-6 col-sm-6 animation" data-animation="bounceInUp">
+          	<div class="pricing-plan">
+            	<h3 class="green">Advanced</h3>
+              <ul>
+              	<li><span>$25</span> / month</li>
+              	<li><span>4GB</span> Storage</li>
+              	<li><span>3GB</span> RAM</li>
+              	<li><span>200GB</span> Bandwidth</li>
+              	<li><span>5</span> Email Address</li>
+              	<li>Forum Support</li>
+              </ul>
+              <div class="btn-middle"><a class="signup-btn" href="#">Sign Up</a></div>
+            </div>
+          </div>
+        	<div class="col-lg-3 col-md-6 col-sm-6 animation" data-animation="bounceInUp">
+          	<div class="pricing-plan">
+            	<h3 class="red">Pro</h3>
+              <ul>
+              	<li><span>$75</span> / month</li>
+              	<li><span>10GB</span> Storage</li>
+              	<li><span>6GB</span> RAM</li>
+              	<li><span>400GB</span> Bandwidth</li>
+              	<li><span>15</span> Email Address</li>
+              	<li>Live Support</li>
+              </ul>
+              <div class="btn-middle"><a class="signup-btn" href="#">Sign Up</a></div>
+            </div>
+          </div>
+        	<div class="col-lg-3 col-md-6 col-sm-6 animation" data-animation="bounceInRight">
+          	<div class="pricing-plan">
+            	<h3 class="blue">Enterprise</h3>
+              <ul>
+              	<li><span>$200</span> / month</li>
+              	<li><span>100GB</span> Storage</li>
+              	<li><span>32GB</span> RAM</li>
+              	<li><span>400GB</span> Bandwidth</li>
+              	<li>Unlimited Email Address</li>
+              	<li>Live Support</li>
+              </ul>
+              <div class="btn-middle"><a class="signup-btn" href="#">Sign Up</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+-->
+    
+    <!--Team-->
+    <!--By adding/removing class "animation" we enable/disable scroll animation of current element-->    
+<!--
+    <section class="content-block white" id="team">
+        	<div class="container">
+      	<div class="row animation" data-animation="fadeInUp">
+        	<h1>Our Team</h1>
+          <h2>Lollipop powder danish sugar plum<br/>caramels liquorice sweet cookie.</h2>
+        </div>
+        <div class="row">
+        	<div class="col-lg-3 col-md-6 col-sm-6 animation" data-animation="fadeInLeft">
+          	<div class="team">
+              <img src="img/img-android/team/kirk.jpg" width="248" height="248" alt="Dexter Kirk"/>
+              <h2>Dexter<br/>Dirk</h2>
+              <h3>CEO,<br/>John Doe Corporation</h3>
+              <div class="social-icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-pinterest"></a>
+              </div>
+            </div>
+          </div>
+        	<div class="col-lg-3 col-md-6 col-sm-6 animation" data-animation="fadeInLeft">
+          	<div class="team">
+              <img src="img/img-android/team/roe.jpg" width="248" height="248" alt="Richard Roe"/>
+              <h2>Richard<br/>Roe</h2>
+              <h3>ART,<br/>John Doe Corporation</h3>
+              <div class="social-icons">
+                <a href="#" class="fa fa-google-plus"></a>
+              </div>
+            </div>
+          </div>
+        	<div class="col-lg-3 col-md-6 col-sm-6 animation" data-animation="fadeInRight">
+          	<div class="team">
+              <img src="img/img-android/team/lobzenko.jpg" width="248" height="248" alt="Anna Lobzenko"/>
+              <h2>Anna<br/>Lobzenko</h2>
+              <h3>Manager,<br/>John Doe Corporation</h3>
+              <div class="social-icons">
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-twitter"></a>
+              </div>
+            </div>
+          </div>
+        	<div class="col-lg-3 col-md-6 col-sm-6 animation" data-animation="fadeInRight">
+          	<div class="team">
+              <img src="img/img-android/team/dou.jpg" width="248" height="248" alt="John Dou"/>
+              <h2>John<br/>Doe</h2>
+              <h3>Cleaning,<br/>John Doe Corporation</h3>
+              <div class="social-icons">
+                <a href="#" class="fa fa-instagram"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+-->
+    
+    <!--Clients-->
+	<!--By adding/removing class "animation" we enable/disable scroll animation of current element-->        
+<!--
+    <section class="clients">
+      <div class="container animation" data-animation="bounceIn">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <a href="#"><img src="img/img-android/clients/wordpress.png" width="262" height="74" alt="Facebook"/></a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <a href="#"><img src="img/img-android/clients/jquery.png" width="262" height="74" alt="Samsung"/></a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <a href="#"><img src="img/img-android/clients/woocommerce.png" width="262" height="74" alt="Blackberry"/></a>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-6">
+          <a href="#"><img src="img/img-android/clients/envato.png" width="262" height="74" alt="Google"/></a>
+        </div>
+      </div>
+    </section>
+-->
+    
+    <!--Gallery-->
+    <section class="gallery animation" id="gallery" data-animation="fadeInUp"><!--By adding/removing class "animation" we enable/disable scroll animation of current element-->
+    	<ul>
+      	<li class="violet"><img src="img/img-android/gallery/1.jpg" width="1400" height="900" alt="Gallery1"/></li>
+      	<li class="green"><img src="img/img-android/gallery/2.jpg" width="1400" height="900" alt="Gallery2"/></li>
+      	<li class="blue"><img src="img/img-android/gallery/3.jpg" width="1400" height="900" alt="Gallery3"/></li>
+      </ul>
+      <span class="prev-slide"></span>
+      <span class="next-slide"></span>
+    </section>
+    
+    <!--Subscription-->
+    
+    
+    
+<!-- Begin MailChimp Signup Form -->
+
+    <section class="subscribe">
+		<div class="container">
+			<div class="row">
+        		<h1 class="white">Subscribe for our news</h1>
+				<span>Enter your Email. It's spam free</span>
+			</div>
+			<div id="mc_embed_signup"class="row">
+			<!-- <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css"> -->
+				<div id="mc_embed_signup"class="row">
+					<form class="subscription-form" action="//brilliant-labs.us3.list-manage.com/subscribe/post?u=e5c6d4c11ac7f57e1dc2ef4fe&amp;id=108569f5ac" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				    <div id="mc_embed_signup_scroll">	
+						<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+				    	<!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				    	<div style="position: absolute; left: -5000px;"><input type="text" name="b_e5c6d4c11ac7f57e1dc2ef4fe_108569f5ac" tabindex="-1" value=""></div>
+			    		<div class="clear">
+			    			<input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
+			    		</div>
+				    </div>
+					</form>
+				</div>
+			</div>
+		</div>
+    </section>    
+    
+    <!--Footer-->
+    <footer>
+    	<div class="container">
+      	<div class="row">
+        	<div class="col-lg-6 col-md-6">
+          	<div class="copyright">
+              <img src="img/img-android/footer-logo.png" width="366" height="163" alt="Brilliant Labs"/>
+              <span>&copy; 2015 Brilliant Labs Ltd. All Rights Reserved.</span>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="social-icons group">
+              <a href="https://www.facebook.com/brilliantlabs" class="fa fa-facebook white"></a>
+              <!-- <a href="#" class="fa fa-pinterest white"></a> -->
+              <!-- <a href="#" class="fa fa-google-plus white"></a> -->
+              <a href="http://www.linkedin.com/company/brilliant-labs-limited" class="fa fa-linkedin white"></a>
+              <a href="https://twitter.com/brilliantlabs" class="fa fa-twitter white"></a>
+              <!-- <a href="#" class="fa fa-instagram white last"></a> -->
+            </div>
+          </div> 
+        </div>
+      </div>
+    </footer>
+    
+    <!--Javascript (jQuery)-->
+		<script src="js/jquery-1.10.2.min.js"></script>
+		<script src="js/jquery.easing.1.3.js"></script>
+		<script src="js/stellar.min.js"></script>
+		<script src="js/waypoints.min.js"></script>
+		<script src="js/jquery.bxslider.min.js"></script>
+		<script src="js/icons-hover.js"></script>
+		<script src="js/animatescroll.js"></script>
+		<script src="js/scripts-android.js"></script>
+		
+	<noscript>
+		<div style="display:inline;">
+			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/966923546/?value=0&amp;guid=ON&amp;script=0"/>
+		</div>
+	</noscript>
+    
+  </body><!--/Body-->
+</html>
